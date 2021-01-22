@@ -38,7 +38,7 @@ func (lList *LinkedList) append(node *Node) {
 	}
 }
 
-// time complexecity O(n^2)
+// time complexecity O(n2)
 func (l *LinkedList) searchInList(item int) {
 	tempNode := l.head
 	isFound := false
